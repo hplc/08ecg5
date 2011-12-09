@@ -13,7 +13,7 @@ put index.htm
 put index.html
 quit
 EOF
-# rm index.*
+rm index.*
 done
 
 sudo sysctl net.inet.tcp.keepinit=75000
